@@ -19,13 +19,13 @@ const Book = () => {
             <label> Check-In </label>
             <input
               type="date"
-              className="cursor-pointer border rounded-md p-3"></input>
+              className=" border rounded-md p-3"></input>
           </div>
           <div className="flex-col flex w-full lg:max-w-[300px] p-2 my-2">
             <label> Check-Out </label>
             <input
               type="date"
-              className="cursor-pointer border rounded-md p-3"></input>
+              className=" border rounded-md p-3"></input>
           </div>
         </div>
         <div className="flex-col flex p-2 my-2 w-full">
