@@ -37,7 +37,7 @@ const Navbar = () => {
         <FaInstagram className="mx-4" />
       </div>
       {/* Hamburger */}
-      <div onClick={handleNav} className="sm:hidden z-10">
+      <div onClick={handleNav} className="md:hidden z-10">
         {/*anything above small it will be hidden, z puts it above the overlay. */}
         <FaBars size={20} className="mr-4 cursor-pointer" />
       </div>
