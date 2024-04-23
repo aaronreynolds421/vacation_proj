@@ -46,7 +46,7 @@ const Navbar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "overflow-y-hidden md:hidden ease-in w-full  duration-300 absolute text-gray-200 left-0 top-0 h-screen bg-black/80 px-4 py-7 flex-col"
+            ? "overflow-y-hidden xl:hidden ease-in w-full  duration-300 absolute text-gray-200 left-0 top-0 h-screen bg-black/80 px-4 py-7 flex-col"
             : "absolute text top-0 h-screen left-[-100%] ease-in duration-500"
         }>
         {/**if nav is true ? show first code else : show next code*/}
