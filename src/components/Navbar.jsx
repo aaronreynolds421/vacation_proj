@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   return (
     <div className="w-full min-h-7 flex justify-between items-center absolute z-10 text-white bg-gray-500/80">
-      <ul className="hidden sm:flex px-4">
+      <ul className="hidden xl:flex px-4">
         <li>
           <a href="/">Home</a>
         </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <FaInstagram className="mx-4" />
       </div>
       {/* Hamburger */}
-      <div onClick={handleNav} className="md:hidden z-10">
+      <div onClick={handleNav} className="xl:hidden z-10">
         {/*anything above small it will be hidden, z puts it above the overlay. */}
         <FaBars size={20} className="mr-4 cursor-pointer" />
       </div>
